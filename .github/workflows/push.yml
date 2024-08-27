@@ -1,8 +1,8 @@
-name: PUSH DEV BRANCH
+name: PUSH INTO MASTER
 
 on: 
   push:
-    branches: [ dev ]
+    branches: [ master ]
 
 jobs:
   Selenium_Test_Job1:
