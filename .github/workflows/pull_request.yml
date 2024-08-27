@@ -1,4 +1,4 @@
-name: Selenium Test Workflow
+name: PULL REQUEST TO MASTER
 
 on: 
   pull_request:
