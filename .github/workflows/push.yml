@@ -2,7 +2,7 @@ name: PUSH INTO MASTER
 
 on: 
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   Selenium_Test_Job1:
