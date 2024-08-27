@@ -1,8 +1,8 @@
-name: PULL REQUEST TO MASTER
+name: PULL REQUEST IN DEV BRANCH
 
 on: 
   pull_request:
-    branches: [ master ]
+    branches: [ dev ]
 
 jobs:
   Job1:
