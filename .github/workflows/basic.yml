@@ -11,4 +11,8 @@ jobs:
       - name: Check out source code
         uses: actions/checkout@v4.1.7
       - run: echo "This repo is ${{ github.repository }}"
+      - name: Run inline script
+        run: |
+          mkdir newfloder
+          ls -l
       
