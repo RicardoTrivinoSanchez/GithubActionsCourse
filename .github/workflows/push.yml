@@ -12,6 +12,7 @@ jobs:
       SELENIUM_DRIVER: 'RemoteWebDriver'
     
     steps:
+      - run: echo "--- Push in ${{ github.ref}} branch ---"
       - run: echo "This is running inside a ${{ runner.os }} server in Github"
       - run: echo "The code is owned by ${{ github.repository_owner}}"
       - name: Check out source code
