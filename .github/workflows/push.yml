@@ -1,4 +1,4 @@
-name: PUSH INTO MASTER
+name: PUSH FROM ${{ github.ref}} INTO MASTER
 
 on: 
   push:
@@ -12,7 +12,6 @@ jobs:
       SELENIUM_DRIVER: 'RemoteWebDriver'
     
     steps:
-      - run: echo "--- Push from ${{ github.ref}} into master branch ---"
       - run: echo "This is running inside a ${{ runner.os }} server in Github"
       - run: echo "The code is owned by ${{ github.repository_owner}}"
       - name: Check out source code
