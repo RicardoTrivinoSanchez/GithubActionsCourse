@@ -13,7 +13,7 @@ jobs:
       - run: echo "This repo is ${{ github.repository }}"
       - name: Run inline script
         run: |
-          mkdfdsir newfloder
+          mkdir newfloder
           ls -l
         shell: bash
       - name: Run a script file from repo
