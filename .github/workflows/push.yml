@@ -1,8 +1,8 @@
-name: Selenium Test Workflow
+name: PUSH
 
 on: 
-  pull_request:
-    branches: [ master ]
+  push:
+    branches: [ dev ]
 
 jobs:
   Selenium_Test_Job1:
