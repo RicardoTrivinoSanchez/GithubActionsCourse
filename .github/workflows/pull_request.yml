@@ -1,8 +1,7 @@
-name: PULL REQUEST IN DEV BRANCH
+name: PULL REQUEST FROM ${{ github.head_ref}} BRANCH TO ${{ github.base_ref}} BRANCH
 
 on: 
   pull_request:
-    branches: [ dev ]
 
 jobs:
   Job1:
