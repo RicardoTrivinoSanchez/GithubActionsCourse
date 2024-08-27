@@ -1,8 +1,7 @@
-name: PULL REQUEST IN DEV BRANCH
+name: PULL REQUEST
 
 on: 
   pull_request:
-    branches: [ dev ]
 
 jobs:
   Job1:
@@ -12,6 +11,7 @@ jobs:
       SELENIUM_DRIVER: 'RemoteWebDriver'
     
     steps:
+      - run: echo "Pull request from ${{ github.head_ref}} branch to ${{ github.base_ref}} branch"
       - run: echo "This is running inside a ${{ runner.os }} server in Github"
       - run: echo "The code is owned by ${{ github.repository_owner}}"
       - name: Check out source code
