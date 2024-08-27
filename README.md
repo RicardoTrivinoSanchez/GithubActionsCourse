@@ -1,2 +1,2 @@
 # GithubActionsCourse
-Learning Github Actions
+Learning Github Actions with ExecuteAutomation
