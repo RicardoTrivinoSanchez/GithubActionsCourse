@@ -9,5 +9,5 @@ jobs:
     steps:
       - run: echo "This is running inside a ${{ runner.os }} server in Github"
       - name: Check out source code
-        run: echo "This repo is ${{ github.repository }}
+        run: echo "This repo is ${{ github.repository }}"
       
